@@ -9,7 +9,8 @@ function Feat() {
 
                     <div key={item.id} className=' hover:bg-fuchsia-50 transition-all duration-300 w-screen h-[60vh] flex flex-col items-center justify-around p-4 md:w-[50vw] xl:w-[33vw] xl:h-[90vh]'>
                         {item.img && <div className='relative flex-1 w-full hover:rotate-1 transition-all duration-500'>
-                            <img src={item.img} alt="" fill="true" className='object-contain ' />
+
+                            <img loading="lazy" src={item.img} alt="" className='object-contain ' />
                         </div>
                         }
                         <div className=' flex-1 flex flex-col items-center gap-4'>
