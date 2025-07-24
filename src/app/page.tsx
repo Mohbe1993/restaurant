@@ -1,3 +1,6 @@
+import Feat from "./components/Feat";
+import Offer from "./components/Offer";
+import Slider from "./components/Slider";
 
 export const metadata = {
   title: 'Restaurant',
@@ -5,8 +8,11 @@ export const metadata = {
 }
 export default function Home() {
 
-  return (<>
-    <> Mohbe1993</>
-  </>
+  return (
+    <>
+      <Slider />
+      <Feat />
+      <Offer />
+    </>
   );
 }
