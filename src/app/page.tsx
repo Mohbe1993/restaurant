@@ -13,6 +13,7 @@ export default function Home() {
       <Slider />
       <Feat />
       <Offer />
+
     </>
   );
 }
