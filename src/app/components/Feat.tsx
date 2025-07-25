@@ -3,7 +3,7 @@ import { featuredProducts } from './data'
 
 function Feat() {
     return (
-        <div className=' w-screen overflow-x-scroll text-red-500 '>
+        <div className=' w-full overflow-x-scroll text-red-500 '>
             <div className=' w-max flex '>
                 {featuredProducts.map(item => (
 

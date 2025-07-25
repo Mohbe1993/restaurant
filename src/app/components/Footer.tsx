@@ -3,9 +3,9 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div className='h-12 md:h-24 p-4 lg:p-20 xl:p-40 text-red-500 flex items-center justify-between'>
+        <div className='h-fit  p-4   text-red-500 flex  items-center justify-around'>
             <Link href='/' className='font-bold text-xl'>Mohbe1993</Link>
-            <p >Lorem ipsum dolor sit amet consectetur.</p>
+            <p className='text-center text-nowrap'>Lorem ipsum dolor sit amet.</p>
         </div>
     )
 }
