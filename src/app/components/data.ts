@@ -374,9 +374,9 @@ export const menu: Menu = [
     id: 2,
     slug: "burgers",
     title: "Juicy Burgers",
-    desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.",
+    desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore asd fgtr.",
     img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
-    color: "black",
+    color: "white",
   },
   {
     id: 3,
@@ -387,3 +387,14 @@ export const menu: Menu = [
     color: "white",
   },
 ];
+
+// next.config.ts
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  images: {
+    domains: ["images.unsplash.com"],
+  },
+};
+
+export default nextConfig;
