@@ -2,24 +2,16 @@
 
 import React, { useEffect, useState } from 'react'
 
+type Option = {
+    title: string;
+    additionalPrice: number;
+};
+
 type props = {
 
     price: number,
     id: number,
-    options: [
-        {
-            title: "Small",
-            additionalPrice: 0,
-        },
-        {
-            title: "Medium",
-            additionalPrice: 4,
-        },
-        {
-            title: "Large",
-            additionalPrice: 6,
-        },
-    ],
+    options: Option[],
 
 }
 
