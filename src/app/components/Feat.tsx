@@ -1,5 +1,8 @@
 import React from 'react'
 import { featuredProducts } from './data'
+import AddToCart from './AddToCart'
+
+
 
 function Feat() {
     return (
@@ -19,7 +22,8 @@ function Feat() {
                             </h1>
                             <p className='p-4 text-center'>{item.desc}</p>
                             <span className='text-xl font-bold'>${item.price}</span>
-                            <button className='bg-red-500 rounded-md text-white p-2 '>Add to cart</button>
+                            <AddToCart />
+
                         </div>
                     </div>))}
             </div>
